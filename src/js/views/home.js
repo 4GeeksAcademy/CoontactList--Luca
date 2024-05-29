@@ -33,7 +33,7 @@ export const Home = () => {
 
   return (
     <div className="container">
-      <div className="phone-mockup">
+      
         <Link to="/addContact" className="addContactBtn">
           <button className="btn btn-success" type="button">
             Add new contact
@@ -69,7 +69,7 @@ export const Home = () => {
               </div>
             </div>
           ))}
-        </div>
+      
       </div>
       {showEditModal && (
         <EditContactModal
